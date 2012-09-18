@@ -1,4 +1,5 @@
-
+#created by: Jack Lindsey
+#sends updates to Java side on new object positions
 
 class JavaCommands:
 

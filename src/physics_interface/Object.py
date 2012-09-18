@@ -1,3 +1,8 @@
+#created by: Jack Lindsey
+#Object class describing basic changes to an object's coordinates, size, rotation
+
+
+
 class Object:
     IDdictionary = {}
     

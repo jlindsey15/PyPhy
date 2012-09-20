@@ -25,7 +25,7 @@ class log_supporter:
         report = "[Error] " + str(error_information + "\n")
         self.logw.write(report)
         
-    def __init__(self):
-        os.chdir('/Users/karlnotturno/Desktop/PyPhy/src')
+    def __init__(self): 
+        os.chdir('/Users/' + os.environ['USER'] + '/Desktop/PyPhy/src')
         self.logw = open('data/log.pyphy', 'a')
         self.startup()

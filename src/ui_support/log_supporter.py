@@ -9,8 +9,8 @@ class log_supporter:
 [Info] PyPhy started at %s. Running version %s, last modified %s. 
 [Info] Software written by %s.
     
-[Action] imports successfully loaded.
-[Action] ui_support successfully loaded.
+    [Action] imports successfully loaded.
+    [Action] ui_support successfully loaded.
     """ % (imports.program_start_time, imports.software_version, imports.software_date_mod, imports.software_authors)
         
         self.logw.write(initial_report)

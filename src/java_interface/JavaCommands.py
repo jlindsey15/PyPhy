@@ -11,7 +11,7 @@ class JavaCommands:
         message = 'update' + " " + str(ID) + " " + str(x)\
                                + " " + str(y) + " " + str(z) + " " \
                                + str(width) + " " + str(height) + " " \
-                               + str(depth) + " " + str(r1) + " " = str(r2) \
+                               + str(depth) + " " + str(r1) + " " + str(r2) \
                                + " " + str(r2) + " " + str(r3)
         j_interface.pyphy.send(message)
 
@@ -23,6 +23,6 @@ class JavaCommands:
         message = 'print ' + output
         j_interface.pyphy.send(message)
 
-    def println message(self, output):
+    def println_message(self, output):
         message = 'println ' + output
         j_interface.pyphy.send(message)
